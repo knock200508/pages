@@ -236,13 +236,7 @@ setTimeout(function () {
   text.show();
 }, 1000);
 
-setTimeout(function () {
-  var text = new AnimatedText(TEXT2, fontAsset);
-  text.position.x -= text.basePosition * 0.5;
-  text.position.y = 0;
-  webgl.add(text);
-  text.show();
-}, 1000);
+
 
 var windLines = new Wind();
 webgl.add(windLines);
